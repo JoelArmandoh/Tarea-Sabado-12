@@ -1,0 +1,65 @@
+Si la Clave es correcta hacer un FOR que muestre la clave tantas veces tenga de caracteres su LENGHT
+Si la clave es correcta hacer un FOR que muestre la clave tantas veces caracteres tenga Su lenght*
+adicionalmente mostrar la clave al reves, por ejemplo si la clave esabc, mostrar cba
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<input type="text"  id="clave" onkeyup="qwerty(this.value)" >
+
+<p id="resultado" ></p>
+
+
+<script>
+
+
+function qwerty (clave){
+
+    // clave.length=="A"
+
+ 
+ 
+if ( clave.length >= 10 && clave.includes("A"))  {
+    resul= document.getElementById("resultado").innerHTML="El resultado es correcto mi copai"
+    
+let cla = clave.length;
+for (let i=0; i<=cla ; i++)
+{
+console.log(clave.split("").reverse().join());
+
+}
+}
+
+else{
+
+    resul= document.getElementById("resultado").innerHTML="El resultado NO es correcto "
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+</script>
+
+
+    
+
+</body>
+</html>
