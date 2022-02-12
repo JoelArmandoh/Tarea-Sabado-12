@@ -1,0 +1,30 @@
+
+<p>2. Leer un número entero y mostrar todos los pares comprendidos entre 1 y el número leído</p>
+
+<script>
+  
+let N=prompt("Introduce un Numero Entero");
+
+// let F= parImpar(N);
+
+// for ( i=2; i <= N; i++) 
+ 
+// console.log("<br>" + i);
+
+for (i = 2; i < N; i++) {
+   n += i;
+   console.log(N);
+
+   function parImpar(N) {
+  if(numero % 2 == 0) {
+    return "par";
+  }
+  else {
+    return "impar";
+  }
+ }
+}
+
+
+
+</script>
